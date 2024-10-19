@@ -1,0 +1,27 @@
+.map-view {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-placeholder {
+    width: 100%;
+    height: auto;
+}
+
+.traffic-cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none; /* Prevents cards from interfering with the map */
+}

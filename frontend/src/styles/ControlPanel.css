@@ -1,0 +1,38 @@
+.control-panel {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-buttons {
+    margin-bottom: 15px;
+}
+
+.filter-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
